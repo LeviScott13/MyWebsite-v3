@@ -1,0 +1,96 @@
+/* HTML */
+body{
+    background: #C7C7C7;
+}
+h2{
+    color: #505050;
+}
+h5{
+    color: #505050;
+}
+span{
+    font-size: 12px;
+}
+
+
+/* Navbar */
+.navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#nav-links{
+    color: white;
+    font-style: Roboto;
+}
+#nav-links:hover{
+    color: #ff6666;
+}
+
+
+/* Container */
+#main{
+    padding-top: 120px;
+}
+#featuredMain{
+    padding-top: 80px;
+}
+
+
+/* Project Cards */
+.card{
+    margin-top: 10px;
+    background: black;
+    color: gray;
+    box-shadow: 2px 3px 15px black;
+}
+.projImgContainer{
+    height: 160px;
+}
+.card-text{
+    font-size: 12px;
+}
+.clickablesContainer{
+    margin-top: 15px;
+    text-align: right;
+}
+.arrows{
+    color: #ff6666;
+}
+
+
+/* Images */
+svg{
+    fill: gray;
+}
+svg:hover{
+    fill: #ff6666;
+}
+
+#logo{
+    width: 35%;
+    border: 2px solid #ff6666;
+}
+#logo:hover{
+    transform: scale(1.1);
+}
+
+
+/* Buttons */
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #ff6666;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
