@@ -1,4 +1,7 @@
 /* HTML */
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #C7C7C7;
 }
@@ -81,7 +84,7 @@ span{
 #featuredMain{
     padding-top: 80px;
 }
-#about{
+#info{
     padding-top: 200px;
 }
 
