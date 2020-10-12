@@ -24,7 +24,7 @@ function Halloween(){
     var spans = document.getElementsByTagName("SPAN");
 
     for(var i = 0; i < cards.length; i++){
-        cards[i].style.boxShadow = "2px 3px 15px #85E21F";
+        cards[i].id = "card2";
     }
     for(var i = 0; i < titles.length; i++){
         titles[i].style.fontFamily = "Creepster";
@@ -70,8 +70,14 @@ function Halloween(){
     icons[4].id = "icon2";
     icons[5].id = "icon3";
 
-    //Image
+    //Images
+    var logo =  document.getElementById('logo');
     document.getElementById('me').style.boxShadow = "2px 3px 15px #85E21F";
+    logo.style.borderRight = "2px solid #881EE4";
+    logo.style.borderLeft = "2px solid #F75F1C";
+    logo.style.borderTop = "2px solid #F75F1C";
+    logo.style.borderBottom = "2px solid #881EE4";
+
 
     //Background
     document.getElementsByTagName("BODY")[0].style.backgroundColor = "black";
