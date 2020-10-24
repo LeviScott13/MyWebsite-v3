@@ -1,4 +1,8 @@
 function Halloween(){
+    //Background
+    document.getElementsByTagName("BODY")[0].style.backgroundColor = "black";
+    document.getElementsByTagName("BODY")[0].style.transition = "background 1s ease";
+    
     document.getElementById('normalHeading').style.display = "none";
     document.getElementById('festive1').style.display = "block";
     document.getElementById('halloweenHeading').style.display = "block";
@@ -77,10 +81,6 @@ function Halloween(){
     logo.style.borderLeft = "2px solid #F75F1C";
     logo.style.borderTop = "2px solid #F75F1C";
     logo.style.borderBottom = "2px solid #881EE4";
-
-
-    //Background
-    document.getElementsByTagName("BODY")[0].style.backgroundColor = "black";
 
     //H tags
     document.getElementsByTagName("H2")[0].style.fontFamily = "Creepster";
